@@ -16,8 +16,7 @@ A production-ready, autonomous AI assistant built using **n8n workflow automatio
 
 ## 🛠️ System Architecture & Workflow Logic
 
-![n8n Workflow Blueprint](./workflow-screenshot.png) *(Replace this with a screenshot of your n8n canvas)*
-
+![n8n Workflow Blueprint]()
 The workflow executes the following pipeline upon receiving a message:
 
 1.  **Trigger (`Telegram Trigger`):** Listens for incoming `message` updates from the bot.
@@ -49,14 +48,14 @@ To replicate this workflow, you will need active accounts and API credentials fo
 
 1.  **Clone this repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-    cd YOUR_REPO_NAME
+    git clone (https://github.com/Karthikv2310/telegram-bot-ai-agent)
+    cd telegram-bot-ai-agent
     ```
 
 2.  **Import the Workflow:**
     * Open your n8n instance.
     * Click the top-right menu icon (`...`) and select **Import from File**.
-    * Choose the `workflow.json` file included in this repository.
+    * Choose the `Telegram Bot.json` file included in this repository.
 
 3.  **Configure Credentials:**
     * Open each node with a red alert badge (Telegram, Gemini, Groq, MongoDB).
