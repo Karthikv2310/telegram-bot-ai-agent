@@ -1,4 +1,3 @@
-# telegram-bot-ai-agent
 # Voice-Enabled AI Telegram Assistant (n8n Workflow)
 
 A production-ready, autonomous AI assistant built using **n8n workflow automation**. The bot accepts both voice notes and text messages via Telegram, processes audio transcriptions with high-speed inference, retains conversational context using external memory, and leverages web-scraping tools to answer real-time queries with live data.
