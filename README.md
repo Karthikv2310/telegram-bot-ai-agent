@@ -16,7 +16,7 @@ A production-ready, autonomous AI assistant built using **n8n workflow automatio
 
 ## 🛠️ System Architecture & Workflow Logic
 
-![n8n Workflow Blueprint](./Screenshot 2026-06-05 213204.png)
+![n8n Workflow Blueprint]([./Screenshot 2026-06-05 213204.png](https://github.com/Karthikv2310/telegram-bot-ai-agent/blob/main/Screenshot%202026-06-05%20213204.png))
 The workflow executes the following pipeline upon receiving a message:
 
 1.  **Trigger (`Telegram Trigger`):** Listens for incoming `message` updates from the bot.
